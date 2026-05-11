@@ -78,4 +78,9 @@ One to many relationships were established between dimension tables and the fact
 
 ![Data Model Diagram](https://github.com/oluwagbemiga01/Gas-production-downtime-analysis/blob/main/Model%20screenshot.png)
 
+## Storytelling Section
 
+The analysis reveals that although gas production recovered strongly in recent periods, operational instability remains a major concern due to high downtime exposure.
+Maintenance related shutdowns emerged as the most significant operational risk, contributing heavily to deferred production losses. 
+Additionally, a concentration of production among a few high performing wells suggests potential vulnerability if those wells experience downtime events.
+Improving maintenance planning and operational reliability could significantly enhance overall production efficiency.
