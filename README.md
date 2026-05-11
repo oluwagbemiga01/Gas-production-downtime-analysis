@@ -18,9 +18,10 @@ This project aims to identify the primary causes of downtime, measure production
 - Support operational optimization decisions
 
 ## Dataset Description
-Oil Fields       | Producing gas fields
-Wells            | Individual production wells
-Production Volume| Gas output in MMSCFD
-Downtime Hours   | Operational downtime duration
-Shutdown Cause   | Cause of operational interruption
-Deferred Production	| Lost production volume
+|:----------------:| :------------:|
+| Oil Fields       | Producing gas fields
+| Wells            | Individual production wells
+| Production Volume| Gas output in MMSCFD
+| Downtime Hours   | Operational downtime duration
+| Shutdown Cause   | Cause of operational interruption
+Deferred Production| Lost production volume
