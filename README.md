@@ -43,6 +43,8 @@ Deferred Production| Lost production volume |
 - A small group of wells contributed most of the total production volume.
 - Uptime performance remained below optimal operational targets.
 
+## Dashboard Preview
+![Gas Dashboard](https://github.com/oluwagbemiga01/Gas-production-downtime-analysis/blob/main/Gas%20Dashboard.png)
 ## Business Recommendations
 - Increase preventive maintenance scheduling to reduce reactive shutdowns.
 - Prioritize monitoring of high-producing wells.
@@ -75,3 +77,5 @@ The central fact table stores measurable operational data, including:
 One to many relationships were established between dimension tables and the fact table to ensure accurate aggregation and filtering across the dashboard.
 
 ![Data Model Diagram](https://github.com/oluwagbemiga01/Gas-production-downtime-analysis/blob/main/Model%20screenshot.png)
+
+
