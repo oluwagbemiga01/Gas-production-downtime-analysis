@@ -73,3 +73,5 @@ The central fact table stores measurable operational data, including:
 ### Relationship Structure
 
 One to many relationships were established between dimension tables and the fact table to ensure accurate aggregation and filtering across the dashboard.
+
+![Data Model Diagram](https://github.com/oluwagbemiga01/Gas-production-downtime-analysis/blob/main/Model%20screenshot.png)
