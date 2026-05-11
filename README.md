@@ -34,3 +34,42 @@ Deferred Production| Lost production volume |
 |Avg Uptime Rate	| 70% |
 |Deferred Production|	0.69M MMSCFD|
 |Total Downtime	|217,365 Hours |
+
+## Key Insights
+### Operational Insights
+- Production performance fluctuated significantly across the analysis period.
+- Maintenance-related shutdowns were the largest contributor to downtime events.
+- Deferred production accounted for 23% of potential output.
+- A small group of wells contributed most of the total production volume.
+- Uptime performance remained below optimal operational targets.
+
+## Business Recommendations
+- Increase preventive maintenance scheduling to reduce reactive shutdowns.
+- Prioritize monitoring of high-producing wells.
+- Improve root-cause tracking for unspecified shutdown events.
+- Investigate recurring pipeline leak incidents.
+- Implement downtime reduction initiatives to improve uptime reliability.
+
+## Data Cleaning and Transformation
+- I handled missing values of numerical values like : production volume, water cut etc. using Median Imputation
+- Some numerical values had categorical values in them (e.g 1080bopd), i had to remove them to ensure consistency of the data
+- Some categorical values from *Downtime cause* variable had missing values, I renamed those values as "Unspecified" because I was not sure of the main cause of downtime.
+
+## Data Modelling
+- A star schema data model was implemented to improve dashboard performance, maintain data integrity, and support scalable analytical reporting.
+
+The model consists of a central fact table containing production and downtime metrics, connected to multiple dimension tables describing well unit type, and date table.
+
+This modelling approach enabled efficient filtering, simplified DAX calculations, and improved overall report usability.
+
+### Fact Table
+The central fact table stores measurable operational data, including:
+
+- Gas Production Volume (MMSCFD)
+- Downtime Hours
+- Deferred Production
+- Uptime Metrics
+
+### Relationship Structure
+
+One to many relationships were established between dimension tables and the fact table to ensure accurate aggregation and filtering across the dashboard.
