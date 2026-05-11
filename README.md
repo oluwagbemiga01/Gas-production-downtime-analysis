@@ -26,3 +26,11 @@ This project aims to identify the primary causes of downtime, measure production
 | Downtime Hours   | Operational downtime duration |
 | Shutdown Cause   | Cause of operational interruption |
 Deferred Production| Lost production volume |
+
+## Key KPIs
+| KPI             | Value    |
+|:--------------: |:---------|
+|Total Production	| 2.32M MMSCFD |
+|Avg Uptime Rate	| 70% |
+|Deferred Production|	0.69M MMSCFD|
+|Total Downtime	|217,365 Hours |
